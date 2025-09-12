@@ -125,33 +125,33 @@ let email = ['rohan@gmail.com','sohan@gmail.com','mohan@gmail.com','ram@gmail.co
 
 // **************slice()**************//
 
-// let arr = [71,52,25,27,91,87]
+let arr = [71,52,25,27,91,87]
 
-//syntex : array.slice(start,end)
+syntex : array.slice(start,end)
 
-// let sliceArray = arr.slice(2,4)
-// console.log(sliceArray);
-// // console.log(arr) //not change original Array
+let sliceArray = arr.slice(2,4)
+console.log(sliceArray);
+// console.log(arr) //not change original Array
 
-// console.log(arr.slice(2,4));
+console.log(arr.slice(2,4));
 
-// let fruits = ["apple","mango","guava","banana"]
-//     console.log(fruits.slice(1,3));
+let fruits = ["apple","mango","guava","banana"]
+    console.log(fruits.slice(1,3));
     
-
+    
 
 
 
 
 // **************splice()**************//
 
-let arr = [71,52,25,27,91,87];
+// let arr = [71,52,25,27,91,87];
 
-//syntax:array.splice(index , delectionCount, item1, item2,...itemx)
+// //syntax:array.splice(index , delectionCount, item1, item2,...itemx)
 
-arr.splice(2,3,555,666)
+// arr.splice(2,3,555,666)
 
-console.log(arr);
+// console.log(arr);
 
 
 
