@@ -60,3 +60,24 @@
     
 // }
 // add2(5,5)
+
+
+// const sum = ( a, b) => {
+//     console.log(a + b);
+    
+// }
+// sum(100,100)
+
+
+// const data = function(num){
+//     console.log(num * num);
+    
+// }
+// data(8, )
+
+
+let access = function (){
+    console.log("Hi Brothers");
+}
+
+access();
