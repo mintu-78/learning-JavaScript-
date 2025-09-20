@@ -76,8 +76,33 @@
 // data(8, )
 
 
-let access = function (){
-    console.log("Hi Brothers");
+// let access = function (){
+//     console.log("Hi Brothers");
+// }
+
+// access();
+
+function subtract(a, b) {
+  return a - b;
 }
 
-access();
+// console.log(subtract(10, 4)); // 6
+
+
+
+function divide(a, b) {
+  return a / b;
+}
+
+// console.log(divide(10, 2)); // 5
+
+
+function isPositive(num) {
+  if (num > 0) {
+    return true;
+  }
+  return false;
+}
+
+console.log(isPositive(5));  // true
+console.log(isPositive(-2)); // false
