@@ -12,25 +12,40 @@
 // myFunction(callbackFunction)
 
 
-function greet(name, callback) {
-    console.log("Hi, " + name);
-    callback();
+// function greet(name, callback) {
+//     console.log("Hi, " + name);
+//     callback();
+// }
+
+// function sayWelcome() {
+//     console.log("Welcome to JavaScript practice!");
+// }
+
+// greet("Mintu", sayWelcome);
+
+
+// function square(num, callback) {
+//     let result = num * num;
+//     callback(result);
+// }
+
+// function displayResult(result) {
+//     console.log("The result is: " + result);
+// }
+
+// square(6, displayResult);
+
+
+function addNumbers(a, b, callback) {
 }
 
-function sayWelcome() {
-    console.log("Welcome to JavaScript practice!");
+addNumbers(5, 10, function(result) {
+  console.log("Result =", result);
+});
+
+function calculate(a, b, callback) {
 }
 
-greet("Mintu", sayWelcome);
-
-
-function square(num, callback) {
-    let result = num * num;
-    callback(result);
-}
-
-function displayResult(result) {
-    console.log("The result is: " + result);
-}
-
-square(6, displayResult);
+calculate(4, 5, function(x, y) {
+  return x * y;
+});
