@@ -31,4 +31,27 @@
 // let d = 20;  //here d is in temporal dead zone
 
 
+// var num = 20;
+// function test() {
+//   console.log(num);
+//   var num = 50;
+// }
+// test();
 
+
+// foo();
+// function foo() {
+//   console.log("First");
+// }
+// function foo() {
+//   console.log("Second");
+// }
+
+
+function demo() {
+  console.log("hello");
+  console.log("hi");
+  var a1 = 10;
+  let b1 = 20;
+}
+demo();
