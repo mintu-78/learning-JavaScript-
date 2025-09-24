@@ -126,3 +126,25 @@ console.log(checkSign(10));  // Positive
 console.log(checkSign(-5));  // Negative
 console.log(checkSign(0));   // Zero
 
+
+
+// 9. Factorial of a number
+function factorial(n) {
+  if (n === 0 || n === 1) return 1;
+  return n * factorial(n - 1);
+}
+console.log(factorial(5)); // 120
+
+
+function countVowels(str) {
+  let vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log(countVowels("JavaScript")); // 3
+
