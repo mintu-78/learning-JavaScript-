@@ -51,12 +51,40 @@
  //reduce//
 
 
- let marks = [70,75,80,85,90]
+//  let marks = [70,75,80,85,90]
 
- const totalmarks = marks.reduce((accumulatar, currentValue,index, array) =>{
-    accumulatar = accumulatar + currentValue;
-    return accumulatar;
- },10)
+//  const totalmarks = marks.reduce((accumulatar, currentValue,index, array) =>{
+//     accumulatar = accumulatar + currentValue;
+//     return accumulatar;
+//  },10)
 
- console.log(totalmarks);
- 
+//  console.log(totalmarks);
+
+
+
+
+// let arr = [1, 2, 3, 4, 5];
+// let result = arr.map(num => num * 2);
+// console.log(result); // [2, 4, 6, 8, 10]
+
+
+//filter//
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let evens = arr.filter(n => n % 2 === 0);
+// console.log(evens); // [2, 4, 6]
+
+
+//Reduce//
+
+// let values = [10, 25, 50, 5];
+// let max = values.reduce((acc, val) => (val > acc ? val : acc));
+// console.log(max); // 50
+
+
+// let arr = [1, 2, 3, 4, 5];
+// let sum = arr.reduce((acc, val) => acc + val, 0);
+// console.log(sum); // 15
+
+
+
